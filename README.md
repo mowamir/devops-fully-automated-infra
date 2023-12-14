@@ -82,7 +82,7 @@ Testing the webhook......
 1) #### Add jenkins webhook to github
     - Access your repo **devops-fully-automated-infra** on github
     - Goto Settings --> Webhooks --> Click on Add webhook 
-    - Payload URL: **htpp://REPLACE-JENKINS-SERVER-PUBLIC-IP:8080/github-webhook/**             (Note: The IP should be public as GitHub is outside of the AWS VPC where Jenkins server is hosted)
+    - Payload URL: **http://REPLACE-JENKINS-SERVER-PUBLIC-IP:8080/github-webhook/**             (Note: The IP should be public as GitHub is outside of the AWS VPC where Jenkins server is hosted)
     - Click on Add webhook
 
 2) #### Configure on the Jenkins side to pull based on the event
